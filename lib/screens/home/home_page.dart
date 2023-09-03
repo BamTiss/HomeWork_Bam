@@ -45,9 +45,11 @@ class _HomePageState extends State<HomePage> {
               ),
             ],
           ),
+          SizedBox(height: 20.0,),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              SizedBox(height: 20.0,),
               Text(
                 'The Secrets to be Fluent in English',
                 style: TextStyle(
@@ -57,6 +59,7 @@ class _HomePageState extends State<HomePage> {
               ),
             ],
           ),
+          SizedBox(height: 20.0,),
           Expanded(
             child: Container(
               color: Color.fromARGB(255, 222, 250, 255),
@@ -79,7 +82,7 @@ class _HomePageState extends State<HomePage> {
                           ),
                         ),
                         SizedBox(
-                          width: 16.0,
+                          width: 20.0,
                         ),
                         Expanded(
                           child: _buidCatagoryButton(
@@ -121,6 +124,7 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                   ),
+                  SizedBox(height: 20.0,),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -134,6 +138,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ],
                   ),
+                  SizedBox (height: 20.0,),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
